@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 #___LOADING THE TRAINED MODEL___#
-load_model = pickle.load(open("C:/Users/OLAMILEKAN/Desktop/Student_depression/train_model.sav", 'rb'))
+load_model = pickle.load(open("train_model.sav", 'rb'))
 #___LABEL ENCODING___#
 encoder ={'Gender': {'Male':1, 
               'Female':0},
@@ -73,4 +73,5 @@ if predict:
       #___FILLING ALL THE FIELDS REQUIREMENT___#
    except (TypeError, ValueError, KeyError, TabError, IndexError):
           st.error('❌Please fill all the fields before predicting!')
+
 
