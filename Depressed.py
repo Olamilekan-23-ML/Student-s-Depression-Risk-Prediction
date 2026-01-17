@@ -71,5 +71,6 @@ if predict:
          st.error('⚠️The Student is at Risk of Depression ')
          st.warning('Consider seeking support from campus counseling services.')
       #___FILLING ALL THE FIELDS REQUIREMENT___#
-   except TypeError, ValueError, KeyError, TabError, IndexError:
+   except (TypeError, ValueError, KeyError, TabError, IndexError):
           st.error('❌Please fill all the fields before predicting!')
+
