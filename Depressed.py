@@ -17,7 +17,7 @@ encoder ={'Gender': {'Male':1,
 'Family History':{'Yes':1, 'No':0}}
 
 #___FORM TITLE___#
-st.title('🎓STUDENTS DEPRESSION DETECTOR')
+st.title('🎓STUDENTS DEPRESSION RISK DETECTOR')
 st.markdown("**Provide the detail's below to predict the student Depression Risk**")
 st.write('---')
 #___FORM LAYOUT___#
@@ -73,5 +73,6 @@ if predict:
       #___FILLING ALL THE FIELDS REQUIREMENT___#
    except (TypeError, ValueError, KeyError, TabError, IndexError):
           st.error('❌Please fill all the fields before predicting!')
+
 
 
