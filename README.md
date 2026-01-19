@@ -27,21 +27,22 @@ The app processes the inputs and predicts whether the student is at high or low 
 ---
 
 ### 💻 How to Run the App Locally
+
 ### 1️⃣ Clone the Repository
 Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
 
-` git clone https://github.com/Olamilekan-23-ML/student-depression-prediction.git
-cd Student-s-Depression-Risk-Prediction `
+``git clone https://github.com/Olamilekan-23-ML/student-depression-prediction.git
+cd Student-s-Depression-Risk-Prediction ``
 
 ### 2️⃣ Install Dependencies
 Ensure you have Python installed, then run:
 
-`pip install -r requirements.txt` 
+``pip install -r requirements.txt`` 
 
 ### 3️⃣ Run the Streamlit App
 Start the application with the following command:
 
-`streamlit run Depressed.py` 
+``streamlit run Depressed.py`` 
 
 Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser.
 
