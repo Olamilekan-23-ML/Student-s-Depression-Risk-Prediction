@@ -81,4 +81,4 @@ diagnosis, or treatment. Always seek the advice of qualified mental health provi
 # 👤 Author
 *_OLAMILEKAN_*
 
-GitHub: @Olamilekan-23-ML
+*_GitHub:@Olamilekan-23-ML_*
