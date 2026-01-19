@@ -1,10 +1,10 @@
-### 🎓 Student Depression Prediction Web App
+# 🎓 Student Depression Prediction Web App
 This is a Machine Learning Web Application that predicts a student's risk of depression based on academic, lifestyle, and psychological input data.
 It uses a trained Logistic Regression model and a Streamlit web interface for user-friendly interaction.
 
 ---
 
-### 🚀 Project Overview
+# 🚀 Project Overview
 • **Model Type**: Supervised Machine Learning (Classification)
 
 • **Web Framework**: Streamlit
@@ -12,13 +12,12 @@ It uses a trained Logistic Regression model and a Streamlit web interface for us
 • **Core Libraries**: Scikit-learn, Pandas, NumPy, Pickle
 
 • **Language**: Python
-
 The user provides details such as academic pressure, sleep duration, dietary habits, and other factors through a web form. 
 The app processes the inputs and predicts whether the student is at high or low risk of depression, offering relevant guidance.
 
 ---
 
-### 🧠 How It Works
+# 🧠 How It Works
 1. A pre-trained Logistic Regression model (trained on a dataset of over 27,000 student records) is loaded using `pickle`.
 2. The user inputs their information via the interactive Streamlit form.
 3. The app encodes the categorical data (like Gender, Sleep Duration) into the numeric format the model expects.
@@ -26,29 +25,25 @@ The app processes the inputs and predicts whether the student is at high or low 
 
 ---
 
-### 💻 How to Run the App Locally
+# 💻 How to Run the App Locally
 
 ### 1️⃣ Clone the Repository
 Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
-
 ``git clone https://github.com/Olamilekan-23-ML/student-depression-prediction.git
 cd Student-s-Depression-Risk-Prediction ``
 
 ### 2️⃣ Install Dependencies
 Ensure you have Python installed, then run:
-
 ``pip install -r requirements.txt`` 
 
 ### 3️⃣ Run the Streamlit App
 Start the application with the following command:
-
 ``streamlit run Depressed.py`` 
-
 Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser.
 
 ---
 
-### 📂 Project Structure
+# 📂 Project Structure
 
 | File | Description |
 | :--- | :--- |
@@ -61,8 +56,7 @@ Then open the URL shown in your terminal (usually http://localhost:8501) in your
 
 ---
 
-### 🧰 Technologies Used
-
+# 🧰 Technologies Used
 • Python
 
 • Streamlit
@@ -75,14 +69,13 @@ Then open the URL shown in your terminal (usually http://localhost:8501) in your
 
 ---
 
-### ⚠️ Important Disclaimer
+# ⚠️ Important Disclaimer
 This tool is for educational and screening purposes only. It is not a substitute for professional medical advice, 
 diagnosis, or treatment. Always seek the advice of qualified mental health providers with any questions you may have.
 
 ---
 
-### 👤 Author
-
-DOGO PAUL OLAMILEKAN
+# 👤 Author
+*_OLAMILEKAN_*
 
 GitHub: @Olamilekan-23-ML
