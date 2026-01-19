@@ -1,9 +1,10 @@
-# 🎓 Student Depression Prediction Web App
+### 🎓 Student Depression Prediction Web App
 This is a Machine Learning Web Application that predicts a student's risk of depression based on academic, lifestyle, and psychological input data.
 It uses a trained Logistic Regression model and a Streamlit web interface for user-friendly interaction.
 
 ---
-## 🚀 Project Overview
+
+### 🚀 Project Overview
 • **Model Type**: Supervised Machine Learning (Classification)
 • **Web Framework**: Streamlit
 • **Core Libraries**: Scikit-learn, Pandas, NumPy, Pickle
@@ -12,6 +13,7 @@ The user provides details such as academic pressure, sleep duration, dietary hab
 The app processes the inputs and predicts whether the student is at high or low risk of depression, offering relevant guidance.
 
 ---
+
 ### 🧠 How It Works
 1. A pre-trained Logistic Regression model (trained on a dataset of over 27,000 student records) is loaded using 'pickle'.
 2. The user inputs their information via the interactive Streamlit form.
@@ -19,37 +21,30 @@ The app processes the inputs and predicts whether the student is at high or low 
 4. The model makes a prediction, and the result is displayed instantly with a risk assessment and actionable recommendations.
 
 ---
-## 💻 How to Run the App Locally
----
+
+### 💻 How to Run the App Locally
 ### 1️⃣ Clone the Repository
 Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
-` ` `bash
-git clone https://github.com/Olamilekan-23-ML/student-depression-prediction.git
-cd student-depression-prediction` ` `
-
----
+` ` `git clone https://github.com/Olamilekan-23-ML/student-depression-prediction.git
+cd Student-s-Depression-Risk-Prediction` ` `
 ### 2️⃣ Install Dependencies
 Ensure you have Python installed, then run:
-` ` `bash
-pip install -r requirements.txt` ` `
-
----
+` ` `pip install -r requirements.txt` ` `
 ### 3️⃣ Run the Streamlit App
 Start the application with the following command:
-` ` `bash
-streamlit run Depressed.py` ` `
+` ` `streamlit run Depressed.py` ` `
 Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser.
 
 ---
 ### 📁 Project Structure
-|**File**    |**Description**|
-|:---|:---|:---|
-|Depressed.py|	|The main Streamlit app script that runs the web interface.|
-|mymodel.sav|	  |The serialized, trained machine learning model.|
-|Student_Depression.py|	 |Jupyter notebook containing the complete data analysis and model training code.|
-|student_depression_dataset.csv|	|The dataset used for training the model.|
-|requirements.txt|	|List of Python dependencies required to run the app.|
-|README.md|	|This file.|
+| **File**                          | **Description** |
+| --------------------------------- | --------------------------------------------------------------------------------- |
+| Depressed.py |	                  | The main Streamlit app script that runs the web interface. |
+| mymodel.sav |	                    | The serialized, trained machine learning model. |
+| Student_Depression.py |	          | The pyhton file  containing the complete data analysis and model training code.|
+| student_depression_dataset.csv |	| The dataset used for training the model. |
+| requirements.txt |	              | List of Python dependencies required to run the app. |
+| README.md |	                      | This file. |
 
 ---
 ### 🧰 Technologies Used
