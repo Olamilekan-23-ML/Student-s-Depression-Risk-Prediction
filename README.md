@@ -41,7 +41,7 @@ streamlit run Depressed.py` ` `
 Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser.
 
 ---
-📁 Project Structure
+### 📁 Project Structure
 |**File**    |**Description**|
 |:---|:---|:---|
 |Depressed.py|	|The main Streamlit app script that runs the web interface.|
@@ -52,7 +52,7 @@ Then open the URL shown in your terminal (usually http://localhost:8501) in your
 |README.md|	|This file.|
 
 ---
-🧰 Technologies Used
+### 🧰 Technologies Used
 • Python
 • Streamlit
 • Scikit-learn
@@ -60,12 +60,11 @@ Then open the URL shown in your terminal (usually http://localhost:8501) in your
 • Pickle
 
 ---
-⚠️ Important Disclaimer
+### ⚠️ Important Disclaimer
 This tool is for educational and screening purposes only. It is not a substitute for professional medical advice, 
 diagnosis, or treatment. Always seek the advice of qualified mental health providers with any questions you may have.
 
 ---
-👤 Author
+### 👤 Author
 DOGO PAUL OLAMILEKAN
 GitHub: @Olamilekan-23-ML
-
