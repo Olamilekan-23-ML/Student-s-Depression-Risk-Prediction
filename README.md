@@ -19,7 +19,7 @@ The app processes the inputs and predicts whether the student is at high or low 
 ---
 
 ### 🧠 How It Works
-1. A pre-trained Logistic Regression model (trained on a dataset of over 27,000 student records) is loaded using 'pickle'.
+1. A pre-trained Logistic Regression model (trained on a dataset of over 27,000 student records) is loaded using `pickle`.
 2. The user inputs their information via the interactive Streamlit form.
 3. The app encodes the categorical data (like Gender, Sleep Duration) into the numeric format the model expects.
 4. The model makes a prediction, and the result is displayed instantly with a risk assessment and actionable recommendations.
@@ -36,12 +36,12 @@ cd Student-s-Depression-Risk-Prediction `
 ### 2️⃣ Install Dependencies
 Ensure you have Python installed, then run:
 
-` ` `pip install -r requirements.txt` ` `
+`pip install -r requirements.txt` 
 
 ### 3️⃣ Run the Streamlit App
 Start the application with the following command:
 
-` ` `streamlit run Depressed.py` ` `
+`streamlit run Depressed.py` 
 
 Then open the URL shown in your terminal (usually http://localhost:8501) in your web browser.
 
