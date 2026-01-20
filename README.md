@@ -31,7 +31,8 @@ The app processes the inputs and predicts whether the student is at high or low 
 ## 1️⃣ Clone the Repository
 ### Open your terminal (Command Prompt, PowerShell, or Terminal) and run the following commands:
 ``git clone https://github.com/Olamilekan-23-ML/student-depression-prediction.git``
- ``cd Student-s-Depression-Risk-Prediction ``
+
+``cd Student-s-Depression-Risk-Prediction ``
 ## 2️⃣ Install Dependencies
 ### Ensure you have Python installed, then run:
 ``pip install -r requirements.txt`` 
