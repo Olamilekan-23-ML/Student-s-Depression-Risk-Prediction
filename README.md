@@ -48,7 +48,7 @@ _Then open the URL shown in your terminal (usually http://localhost:8501) in you
 | File | Description |
 | :--- | :--- |
 | `Depressed.py` | The main Streamlit app script that runs the web interface. |
-| `mymodel.sav` | The serialized, trained machine learning model. |
+| `train_model.sav` | The serialized, trained machine learning model. |
 | `Student_Depression.py` | The Python file containing the complete data analysis and model training code. |
 | `student_depression_dataset.csv` | The dataset used for training the model. |
 | `requirements.txt` | List of Python dependencies required to run the app. |
